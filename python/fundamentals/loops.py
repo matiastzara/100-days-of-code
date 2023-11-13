@@ -1,5 +1,5 @@
 #while loop
-'''
+
 user_input = input("Do you wish to run the program? (yes/no): ")
 
 while user_input == "yes":
@@ -7,9 +7,9 @@ while user_input == "yes":
     user_input = input("Do you wish to run the program? (yes/no): ")
 
 print("We stopped running.")
-'''
+
 #for loop
-'''
+
 students = [
     {"name": "Rolf", "grade": 90},
     {"name": "Bob", "grade": 78},
@@ -22,10 +22,10 @@ for student in students:
     grade = student["grade"]
 
     print(f"{name} has a grade of {grade}.")
-'''
+
 
 #destructuring
-'''
+
 friends = [("Rolf", 25), ("Anne", 37), ("Charlie", 31), ("Bob", 22)]
 
 for name, age in friends:
@@ -57,7 +57,7 @@ for status in cars:
         continue
     print(f"This car is {status}.")
     print("Shipping new car to customer!")
-'''
+
 
 # Else in loops
 cars = ["ok", "ok", "ok", "ok", "ok"]

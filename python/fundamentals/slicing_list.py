@@ -1,5 +1,5 @@
 friends = ["Rolf", "Charlie", "Anne", "Bob", "Jen"]
-print(friends[:-4])
+print(friends[:-4]) # ['Rolf']
 
 friends = ["Rolf", "John", "Mary"]
 friends_reversed = friends[::-1]
